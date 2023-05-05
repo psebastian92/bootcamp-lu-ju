@@ -59,3 +59,15 @@ ejemplo: git add index.html
 ´´´ sh
 git commit -m (comentario de qué hice en este paso. Ej: "agregar" index.html)
 ´´´
+## Ver la historia de commits
+´´´ sh
+git log # historia de commit detallada
+git log --oneline  # historia de commit resumida
+´´´
+
+SI LA CONSOLA QUEDA BLOQUEDA, Y NO PUEDO SALIR DEL LISTADO: presiono la tecla "q" de "quit".
+
+## Descartar cambios de archivos modificados
+´´´ sh
+git restore "nombre del archivo"
+´´´
