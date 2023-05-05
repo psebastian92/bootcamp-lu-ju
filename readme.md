@@ -54,6 +54,7 @@ git status
 git add <nombre archivo>
 ejemplo: git add index.html
 ´´´
+Agregar todos: git add .
 
 ## Pasar de SA a LR
 ´´´ sh
@@ -71,3 +72,4 @@ SI LA CONSOLA QUEDA BLOQUEDA, Y NO PUEDO SALIR DEL LISTADO: presiono la tecla "q
 ´´´ sh
 git restore "nombre del archivo"
 ´´´
+
