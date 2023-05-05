@@ -73,3 +73,9 @@ SI LA CONSOLA QUEDA BLOQUEDA, Y NO PUEDO SALIR DEL LISTADO: presiono la tecla "q
 git restore "nombre del archivo"
 ´´´
 
+## Si quiero ver los cambios que tengo entre el WD y el LR:
+´´´ sh
+git diff 
+´´´
+
+
