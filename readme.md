@@ -1,4 +1,4 @@
-## CONFIGURACIÓN INICIAL.
+# CLASE 15 - CONFIGURACIÓN INICIAL
 
 <!-- Setear nombre de usuario-->
 ``` sh
@@ -88,4 +88,18 @@ Necesito crear el archivo **.gitignore**:
 touch .gitignore
 ```
 
+## Ayuda de git: subcomando --help
+``` sh
+git help --
+```
+Ejemplo: git add help--, o git restore --help
 
+## Agrego a mi repo local la URL del repo remoto
+``` sh
+git remote add origin https://github.com/psebastian92/bootcamp-lu-ju.git
+```
+
+### Visualizar si se agrego o qué URL tengo agregada
+``` sh
+git remote -v
+```
