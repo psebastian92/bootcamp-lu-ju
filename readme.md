@@ -1,28 +1,28 @@
 ## CONFIGURACIÓN INICIAL.
 
 <!-- Setear nombre de usuario-->
-´´´ sh
+``` sh
 git config --global user.name "Sebastian Muñoz"
-´´´
+```
 
 <!-- Setear email -->
-´´´ sh
+``` sh
 git config --global user.email "sebastian.munoz092@gmail.com"
 
-´´´
+```
 
 
 <!-- Verificar qué datos se ingresaron -->
-´´´ sh
+``` sh
 git config --get-regexp user
-´´´
+```
 
 
 ## CREAR UN REPOSITORIO 
 <!-- Iniciar repositorio -->
-´´´ sh
+```sh
 git init
-´´´
+```
 
 ## Áreas del repositorio de GIT
 
@@ -45,38 +45,38 @@ git init
 * staged: archivos que están en el área temporal/intercambio (SA). 
 
 ## Saber estado actual de los archivos
-´´´ sh
+``` sh
 git status
-´´´
+```
 
 ## Pasar de WD a SA 
-´´´ sh
+``` sh
 git add <nombre archivo>
 ejemplo: git add index.html
-´´´
+```
 Agregar todos: git add .
 
 ## Pasar de SA a LR
-´´´ sh
+``` sh
 git commit -m (comentario de qué hice en este paso. Ej: "agregar" index.html)
-´´´
+```
 ## Ver la historia de commits
-´´´ sh
+``` sh
 git log # historia de commit detallada
 git log --oneline  # historia de commit resumida
-´´´
+```
 
 SI LA CONSOLA QUEDA BLOQUEDA, Y NO PUEDO SALIR DEL LISTADO: presiono la tecla "q" de "quit".
 
 ## Descartar cambios de archivos modificados
-´´´ sh
+``` sh
 git restore "nombre del archivo"
-´´´
+```
 
 ## Si quiero ver los cambios que tengo entre el WD y el LR:
-´´´ sh
+``` sh
 git diff 
-´´´
+```
 
 # Clase 16
 
@@ -84,8 +84,8 @@ git diff
 Este archivo me sirve para ignorar carpetas o archivos que no quiero que sean parte del repositorio. Normalmente va sobre la raíz del proyecto (en este caso, la raíz es lo que tengo dentro de la carpeta GIT-INTRO).
 
 Necesito crear el archivo **.gitignore**: 
-´´´ sh
+``` sh
 touch .gitignore
-´´´
+```
 
 
