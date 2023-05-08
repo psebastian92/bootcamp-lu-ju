@@ -78,4 +78,14 @@ git restore "nombre del archivo"
 git diff 
 ´´´
 
+# Clase 16
+
+## .gitignore
+Este archivo me sirve para ignorar carpetas o archivos que no quiero que sean parte del repositorio. Normalmente va sobre la raíz del proyecto (en este caso, la raíz es lo que tengo dentro de la carpeta GIT-INTRO).
+
+Necesito crear el archivo **.gitignore**: 
+´´´ sh
+touch .gitignore
+´´´
+
 
