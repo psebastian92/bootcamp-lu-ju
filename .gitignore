@@ -1,1 +1,4 @@
+## Este archivo me permite ignorar otros archivos en GIT
 logs/
+*.tmp
+
